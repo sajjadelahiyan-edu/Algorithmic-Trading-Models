@@ -18,7 +18,7 @@ This model utilizes a contrarian execution protocol to exploit, rather than fall
 
 ### Data Validation & Visualization
 The interactive data visualization and spread analysis can be found in the accompanying Jupyter Notebook:
-**`lets completely review the trap limits in DJI.ipynb`**
+**`Proprietary High-Frequency Microstructure Dataset and Execution Architecture.ipynb`**
 
 The analysis in the notebook is derived from the historical dataset provided in:
 **`DJIUSD_M1_202601012300_202608212059.csv`**
