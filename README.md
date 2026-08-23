@@ -9,11 +9,14 @@ Conventional algorithmic strategies often rely on breakout momentum orders place
 
 ### The Engineered Solution: Limit Execution
 This model implements a structured execution protocol to navigate opening volatility:
-1. **Adverse Selection Avoidance:** Refuses to execute via market orders during the initial opening volatility window.
+1. **Adverse Selection Avoidance:** Refuses to execute via market or stop orders during the initial opening volatility window.
 2. **Volatility Absorption:** Places calculated Limit Orders against aggressive opening price action.
 3. **Liquidity Provision:** Absorbs transient volatility spikes, securing entry positioning during extreme market moves.
 
 ### Data Validation & Architecture
-The data analysis, spread visualization, and architectural review can be accessed in the accompanying Jupyter Notebook:
-
+The data analysis, spread visualization, and architectural review are documented in the accompanying Jupyter Notebook:
 * **`Proprietary High-Frequency Microstructure Dataset and Execution Architecture.ipynb`**
+
+### Dataset Reference
+The quantitative analysis and model evaluations are derived from the historical microstructure dataset:
+* **`DJIUSD_M1_202601012300_202608212059.csv`**
